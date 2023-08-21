@@ -1,6 +1,6 @@
 #!/bin/bash
-# Made by Jones Development (jonesdev.xyz)
-# https://github.com/jonesdevelopment/
+# Made by Jones Development (https://jonesdev.xyz/)
+# https://github.com/jonesdevelopment/cf-ipwl/
 
 # Save basic IPTables usage in order to prevent duplicate code
 BASE_IPTABLES_USAGE="INPUT -p tcp -m multiport --sports http,https"
