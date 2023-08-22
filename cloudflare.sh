@@ -3,7 +3,7 @@
 # https://github.com/jonesdevelopment/cf-ipwl/
 
 # Save basic IPTables usage in order to prevent duplicate code
-BASE_IPTABLES_USAGE="INPUT -p tcp -m multiport --sports http,https"
+BASE_IPTABLES_USAGE="INPUT -p tcp -m multiport --dports http,https"
 
 # Static cloudflare IPv4 list URL
 url="https://www.cloudflare.com/ips-v4"
