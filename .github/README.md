@@ -26,8 +26,9 @@
 ## How to use
 
 1. Download or copy [the script](https://github.com/jonesdevelopment/cf-ipwl/blob/main/cloudflare.sh) to your server
-2. Run the script with super user privileges (`sudo ./cloudflare.sh`)
-3. The rules are automatically applied or removed, depending if you the rules already existed
+2. Make the script executable by using chmod (`sudo chmod +x cloudflare.sh`)
+3. Run the script with super user privileges (`sudo ./cloudflare.sh`)
+4. The rules are automatically applied or removed, depending if you the rules already existed
     - (If you want to undo the changes, run the script again)
 
 If you encounter any issues or bugs, please open a [GitHub issue](https://github.com/jonesdevelopment/cf-ipwl/issues).
