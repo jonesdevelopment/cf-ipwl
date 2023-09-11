@@ -1,0 +1,5 @@
+.github/
+HEADER
+LICENSE
+.*ignore
+.*config
